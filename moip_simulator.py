@@ -11,7 +11,7 @@ def do_notify_post(id_transaction, email, status=5, cod_moip=12345678, parcelas=
                                 'parcelas':parcelas,
                                 'valor':valor,
                                 'forma_pagamento':forma_pagamento,
-                                'tipo_pagamento',tipo_pagamento,
+                                'tipo_pagamento':tipo_pagamento,
                                 'status':status})
     con = httplib.HTTPConnection(SERVIDOR+URI)
     con.request("POST",params)
