@@ -1,8 +1,9 @@
 moip-simulator
 ==============
-Simulador simples e direto de notificações do MoIP para uma view
+Simulador simples e direto de notificações do MoIP <http://moip.com.br> para testes em ambientes local ou qualquer outro em uma view
 de processamento da aplicação.
 
+ *** Não subistitui o sandbox do moip. ***
 
 Dependencias
 ===============
@@ -21,8 +22,8 @@ recebe o post
 
 www.seuservidor.com.br/moip
 
-Função:
- do_notify_post(id_transaction, email, status=5, cod_moip=12345678,\
+	Função:
+ 		do_notify_post(id_transaction, email, status=5, cod_moip=12345678,\
                 parcelas=None,valor=5000 ,forma_pagamento=3,\
                 tipo_pagamento="CartaoDeCredito")
 
